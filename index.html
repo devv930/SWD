@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shop With Debbie — Luxury Nigerian wear, stylish outfits and fashion accessories." />
+    <title>Shop With Debbie (SWD)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="#">SWD</a>
+        <nav class="nav" id="mainNav" data-visible="false">
+          <ul>
+            <li><a href="#categories">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#support">Customer Support</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="btn btn-ghost" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+          <a href="#luxury" class="btn btn-primary shop-now show-products">Shop Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner container">
+          <div class="hero-copy">
+            <h1 class="hero-title">Luxury Nigerian Wear & Stylish Outfits</h1>
+            <p class="hero-sub">Handcrafted, premium fabrics — curated for confidence and style.</p>
+            <div class="hero-ctas">
+              <a href="#luxury" class="btn btn-cta show-products">Shop Now</a>
+              <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img src="https://images.unsplash.com/photo-1549989472-2eacb7d3e3bf?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=0e3e850b2ff1f3c4f3d2d7b2f9b2396f" alt="Elegant Nigerian fashion" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="categories container">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="category-grid">
+          <a class="category-card" href="#luxury">
+            <img src="https://images.unsplash.com/photo-1520975910096-34d9f3b7d061?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=4baf8e7c3c0bf9a432c2cb6e6ddb8d3f" alt="Luxury Nigerian wear" loading="lazy">
+            <div class="cat-info">
+              <h3>Luxury Nigerian Wear</h3>
+            </div>
+          </a>
+          <a class="category-card" href="#casual">
+            <img src="https://images.unsplash.com/photo-1495121605193-b116b5b09a2a?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6c7b9f2fb2b9f0a1b1c3b5a5f9e7d9a0" alt="Casual outfits" loading="lazy">
+            <div class="cat-info">
+              <h3>Casual Outfits</h3>
+            </div>
+          </a>
+          <a class="category-card" href="#accessories">
+            <img src="https://images.unsplash.com/photo-1585386959984-a415522a8b11?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=0d40b2a9b2bf0efc2c2f7aaf5f1b9f7f" alt="Accessories" loading="lazy">
+            <div class="cat-info">
+              <h3>Accessories</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="luxury" class="products container hidden" aria-hidden="true">
+        <h2 class="section-title">Featured — Luxury Nigerian Wear</h2>
+        <div class="product-grid" id="productGrid">
+          <!-- Product cards inserted by JS or fallbacks shown here -->
+        </div>
+      </section>
+
+      <section id="about" class="about container">
+        <h2 class="section-title">About SWD</h2>
+        <p class="muted">Shop With Debbie (SWD) crafts premium Nigerian wear with contemporary silhouettes and luxurious fabrics. We celebrate heritage while designing for the modern woman who wants both comfort and confidence.</p>
+      </section>
+
+      <section id="reviews" class="reviews container">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="review-list">
+          <blockquote class="review">
+            <p>Beautiful fabric and perfect fit — I felt so elegant.</p>
+            <cite>— Amaka N.</cite>
+          </blockquote>
+          <blockquote class="review">
+            <p>Fast shipping and excellent customer support. Highly recommended.</p>
+            <cite>— Jane D.</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="support" class="support container">
+        <h2 class="section-title">Customer Support</h2>
+        <p class="muted">Need help with sizing, custom orders, or returns? Our friendly support team is here to help.</p>
+        <ul class="support-list">
+          <li><strong>Shipping:</strong> Worldwide tracked delivery.</li>
+          <li><strong>Returns:</strong> 14-day easy return policy.</li>
+          <li><strong>Custom Orders:</strong> Tailoring available on request.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact container">
+        <h2 class="section-title">Contact</h2>
+        <p class="muted">Questions? Email <a href="mailto:hello@shopwithdebbie.com">hello@shopwithdebbie.com</a> or use the WhatsApp chat button.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand-footer" href="#">SWD</a>
+          <p class="muted">Luxury Nigerian wear — designed with care.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#categories">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#support">Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="social">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+          </div>
+          <div class="contact-email">
+            <a href="mailto:hello@shopwithdebbie.com">hello@shopwithdebbie.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small>© <span id="year"></span> Shop With Debbie — All rights reserved.</small>
+        <div class="trust-inline">
+          <span class="badge">Secure Checkout</span>
+          <span class="badge">Quality Guarantee</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Quick view modal -->
+    <div class="modal" id="quickView" aria-hidden="true">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="quickViewTitle">
+        <button class="modal-close" id="closeModal" aria-label="Close">✕</button>
+        <div class="modal-body" id="modalBody">
+          <!-- Filled by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp floating button -->
+    <a class="whatsapp-btn" href="https://wa.me/2348012345678" target="_blank" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
